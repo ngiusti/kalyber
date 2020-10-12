@@ -16,7 +16,7 @@ const About = () => (
                 </div>
             </div>
             <div className="about-image__wrap">
-                <img className="about-image" src={logo} alt="logo image"/>
+                <img className="about-image" src={logo} alt="logo"/>
             </div>
         </div>
         <div className="about-background"></div>
