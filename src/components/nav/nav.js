@@ -40,7 +40,7 @@ class Nav extends Component {
                 transition: 'all 200ms linear',
               }}>
                 <a className="nav-logo__wrap" href="#Header">
-                    <img className="nav-logo" src={Logo}/>
+                    <img className="nav-logo" src={Logo} alt="nav-logo"/>
                 </a>
                 <ul className="nav-items__wrap">
                     <NavItem title="About"/>
