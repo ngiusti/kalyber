@@ -1,0 +1,37 @@
+@import "../../styles//variables.scss";
+
+.contact__wrap {
+  min-height: 100vh;
+  position: relative;
+}
+
+.contact-copy {
+  width: 50%;
+  margin: 0 auto;
+  color: $white;
+  font-size: 1.75vw;
+}
+
+.contact-background {
+  background: linear-gradient(#71516d, #3c628e);
+  position: absolute;
+  top: 0;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 45%);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.contact-form__wrap {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact-submit-btn {
+  background-color: $red;
+  color: $white;
+  border: none;
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  border-radius: 10px;
+}

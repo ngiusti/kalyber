@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.header__wrap {
+  height: 100vh;
+  position: relative;
+}
+
+.header-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.header-title-image {
+  width: 100%;
+}
+
+.header-background__wrap {
+  height: 100%;
+}
+
+.header-background-image {
+  background-image: url("../../assets/paralax-ny.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  filter: grayscale(1);
+  top: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.header-background-cover {
+  height: 100%;
+  background-color: $red;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 75% 100%, 90% 50%, 75% 0);
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}

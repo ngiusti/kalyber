@@ -1,0 +1,20 @@
+.content__wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.content-title {
+  font-size: 5vw;
+  margin: 5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.content-items__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
