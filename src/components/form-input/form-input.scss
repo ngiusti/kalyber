@@ -1,8 +1,9 @@
 @import "../../styles/variables.scss";
 
 @mixin shrinkLabel {
-  top: -14px;
-  font-size: 12px;
+  top: -25%;
+  left: 0;
+  font-size: 1vw;
   color: $black;
 }
 
@@ -42,8 +43,9 @@
     font-weight: normal;
     position: absolute;
     pointer-events: none;
-    left: 5px;
-    top: 10px;
+    left: 1vw;
+    top: 50%;
+    transform: translateY(-50%);
     transition: 300ms ease all;
 
     &.shrink {
