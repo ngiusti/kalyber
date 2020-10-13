@@ -18,5 +18,22 @@
 }
 
 .item-copy {
-  font-size: 1.5vw;
+  font-size: 2.5vw;
+}
+
+@media #{$mq-small} {
+  .item-block__wrap {
+    padding: 3vw;
+    margin: 2vw;
+    width: 40%;
+  }
+
+  .item-title {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+
+  .item-copy {
+    font-size: 1.5vw;
+  }
 }

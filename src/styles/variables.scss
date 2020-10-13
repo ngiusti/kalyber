@@ -6,3 +6,13 @@ $white: #fff;
 $black: #0e1720;
 $red: #db2f2c;
 $blue: #0773ae;
+
+/*******************
+ ** Media Queries **
+ *******************/
+
+$mq-screen: "screen";
+$mq-small: "screen and (min-width: 768px)";
+$mq-medium: "screen and (min-width: 1024px)";
+$mq-large: "screen and (min-width: 1280px)";
+$mq-largest: "screen and (min-width: 1760px)";

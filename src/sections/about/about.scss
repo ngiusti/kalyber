@@ -1,5 +1,7 @@
+@import "../../styles//variables.scss";
+
 .about__wrap {
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
 }
 
@@ -19,17 +21,43 @@
 }
 
 .about-content-item__wrap {
-  margin: 5vw;
-  width: 50%;
+  margin: 5vw auto;
+  text-align: center;
+  width: 80%;
+  font-size: 3.5vw;
+  background: white;
+  padding: 4vw;
+  border-radius: 10px;
 }
 
 .about-image__wrap {
-  width: 30%;
-  position: absolute;
-  right: 5%;
-  bottom: 0;
+  display: none;
 }
 
 .about-image {
   width: 100%;
+}
+
+@media #{$mq-small} {
+  .about-content-item__wrap {
+    margin: 5vw;
+    width: 50%;
+    font-size: 2vw;
+    background: transparent;
+    text-align: left;
+    padding: 0vw;
+  }
+
+  .about-image__wrap {
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    display: block;
+  }
+
+  .about__wrap {
+    min-height: 100vh;
+    position: relative;
+  }
 }

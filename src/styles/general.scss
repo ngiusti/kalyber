@@ -6,7 +6,7 @@
 }
 
 .content-title {
-  font-size: 5vw;
+  font-size: 7vw;
   margin: 5vw;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -17,4 +17,19 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+@media #{$mq-small} {
+  .content__wrap {
+    height: 100%;
+    width: 100%;
+  }
+
+  .content-title {
+    font-size: 5vw;
+    margin: 5vw;
+  }
+
+  .content-items__wrap {
+  }
 }

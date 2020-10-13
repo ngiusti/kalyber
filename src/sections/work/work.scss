@@ -1,5 +1,7 @@
+@import "../../styles//variables.scss";
+
 .work__wrap {
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
 }
 
@@ -11,4 +13,10 @@
   height: 100%;
   width: 100%;
   z-index: -1;
+}
+
+@media #{$mq-small} {
+  .work__wrap {
+    min-height: 100vh;
+  }
 }

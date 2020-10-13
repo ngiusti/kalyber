@@ -1,15 +1,17 @@
 @import "../../styles//variables.scss";
 
 .contact__wrap {
-  min-height: 100vh;
+  min-height: 50vh;
   position: relative;
+  margin-top: -1px;
+  padding: 10vw 0;
 }
 
 .contact-copy {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   color: $white;
-  font-size: 1.75vw;
+  font-size: 2.75vw;
 }
 
 .contact-background {
@@ -23,7 +25,7 @@
 }
 
 .contact-form__wrap {
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -31,7 +33,32 @@
   background-color: $red;
   color: $white;
   border: none;
-  padding: 1vw 2vw;
-  font-size: 2vw;
+  padding: 2vw 4vw;
+  font-size: 3vw;
   border-radius: 10px;
+  width: 100%;
+}
+
+@media #{$mq-small} {
+  .contact__wrap {
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .contact-copy {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.75vw;
+  }
+
+  .contact-form__wrap {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .contact-submit-btn {
+    padding: 1vw 2vw;
+    font-size: 2vw;
+    width: auto;
+  }
 }
